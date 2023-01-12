@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC2D5732970849F0058C360 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC2D5722970849F0058C360 /* URLRequest+Extensions.swift */; };
 		4AE66F9529706AA500206A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE66F9429706AA500206A66 /* AppDelegate.swift */; };
 		4AE66F9729706AA500206A66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE66F9629706AA500206A66 /* SceneDelegate.swift */; };
 		4AE66F9C29706AA500206A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE66F9A29706AA500206A66 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		265636212F29ADE45024E5F6 /* Pods_NewsApp_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsApp_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC2D5722970849F0058C360 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
 		4AE66F9129706AA500206A66 /* NewsApp-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApp-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE66F9429706AA500206A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AE66F9629706AA500206A66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AC2D571297084930058C360 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4AC2D5722970849F0058C360 /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		4AE66F8829706AA500206A66 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		4AE66F9329706AA500206A66 /* NewsApp-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4AC2D571297084930058C360 /* Extensions */,
 				4AE66FAB2970826400206A66 /* Models */,
 				4AE66FA829706AD400206A66 /* Controllers */,
 				4AE66F9429706AA500206A66 /* AppDelegate.swift */,
@@ -99,7 +110,6 @@
 				B14344D30CE0143B2060AB81 /* Pods-NewsApp-MVVM.debug.xcconfig */,
 				98F2620A6A040A65BA25722B /* Pods-NewsApp-MVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -229,6 +239,7 @@
 				4AE66FAD2970827100206A66 /* Article.swift in Sources */,
 				4AE66F9529706AA500206A66 /* AppDelegate.swift in Sources */,
 				4AE66F9729706AA500206A66 /* SceneDelegate.swift in Sources */,
+				4AC2D5732970849F0058C360 /* URLRequest+Extensions.swift in Sources */,
 				4AE66FAA29706B3500206A66 /* NewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
